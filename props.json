@@ -1,0 +1,329 @@
+{
+    "core": {
+        "id": "aa9587e5-bf58-573d-bb49-18597071253c",
+        "name": "mtb-template-cat3",
+        "version": "1.0.0.29660"
+    },
+    "opt": {
+        "props": {
+            "TemplateData": {
+                "XMC1100": {
+                    "16": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1100x0016.txt"
+                        ]
+                    },
+                    "32": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1100x0032.txt"
+                        ]
+                    },
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1100x0064.txt"
+                        ]
+                    },
+                    "8": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1100x0008.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC1200": {
+                    "128": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1200x0128.txt"
+                        ]
+                    },
+                    "16": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1200x0016.txt"
+                        ]
+                    },
+                    "200": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1200x0200.txt"
+                        ]
+                    },
+                    "32": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1200x0032.txt"
+                        ]
+                    },
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1200x0064.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC1300": {
+                    "128": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0128.txt"
+                        ]
+                    },
+                    "16": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0016.txt"
+                        ]
+                    },
+                    "200": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0200.txt"
+                        ]
+                    },
+                    "32": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0032.txt"
+                        ]
+                    },
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0064.txt"
+                        ]
+                    },
+                    "8": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1300x0008.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC1400": {
+                    "128": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1400x0128.txt"
+                        ]
+                    },
+                    "200": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1400x0200.txt"
+                        ]
+                    },
+                    "32": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1400x0032.txt"
+                        ]
+                    },
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc1400x0064.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4100": {
+                    "128": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4100x128.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4104": {
+                    "128": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4104x128.txt"
+                        ]
+                    },
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4104x64.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4108": {
+                    "64": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4108x64.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4200": {
+                    "256": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4200x256.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4300": {
+                    "256": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4300x256.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4400": {
+                    "256": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4400x256.txt"
+                        ]
+                    },
+                    "512": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4400x512.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4402": {
+                    "256": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4402x256.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4500": {
+                    "1024": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4500x1024.txt"
+                        ]
+                    },
+                    "768": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4500x768.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4502": {
+                    "768": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4502x768.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4504": {
+                    "512": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4504x512.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4700": {
+                    "1536": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4700x1536.txt"
+                        ]
+                    },
+                    "2048": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4700x2048.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "XMC4800": {
+                    "1024": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4800x1024.txt"
+                        ]
+                    },
+                    "1536": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4800x1536.txt"
+                        ]
+                    },
+                    "2048": {
+                        "deps": "cat3_dependencies",
+                        "files": [
+                            "filelist/cat3.txt",
+                            "filelist/xmc4800x2048.txt"
+                        ]
+                    },
+                    "udd_key": "Flash_KB"
+                },
+                "udd_key": "DeviceDie"
+            },
+            "dependency_sets": {
+                "cat3_dependencies": [
+                    "deps/core-lib.mtbx",
+                    "deps/core-make.mtbx",
+                    "deps/mtb-xmclib-cat3.mtbx",
+                    "deps/recipe-make-cat3.mtbx"
+                ]
+            }
+        }
+    }
+}
