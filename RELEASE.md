@@ -1,6 +1,9 @@
-# mtb-template-cat3 Release Notes
+# ModusToolbox CAT3 BSP Template Library Release Notes
 
 ### What Changed?
+#### v1.1.0
+- Correct linker script filenames
+- Add cybsp_hw_config.h to default BSP files
 #### v1.0.0
 Initial release
 
