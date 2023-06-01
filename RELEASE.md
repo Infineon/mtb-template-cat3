@@ -1,6 +1,9 @@
 # ModusToolbox CAT3 BSP Template Library Release Notes
 
 ### What Changed?
+#### v1.2.0
+- Added support for BSP Assistant chip flow
+- Update MTBX dependencies to use MTB 3.0 Query APIs
 #### v1.1.0
 - Correct linker script filenames
 - Add cybsp_hw_config.h to default BSP files
@@ -25,4 +28,4 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2022.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2022-2023.

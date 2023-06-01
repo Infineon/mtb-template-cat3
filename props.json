@@ -2,7 +2,7 @@
     "core": {
         "id": "aa9587e5-bf58-573d-bb49-18597071253c",
         "name": "mtb-template-cat3",
-        "version": "1.1.0.30611"
+        "version": "1.2.0.32855"
     },
     "opt": {
         "props": {
@@ -13,28 +13,32 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1100x0016.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "32": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1100x0032.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "64": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1100x0064.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "8": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1100x0008.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -44,35 +48,40 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1200x0128.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "16": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1200x0016.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "200": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1200x0200.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "32": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1200x0032.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "64": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1200x0064.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -82,42 +91,48 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0128.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "16": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0016.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "200": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0200.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "32": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0032.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "64": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0064.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "8": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1300x0008.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -127,28 +142,32 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1400x0128.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "200": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1400x0200.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "32": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1400x0032.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "64": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc1400x0064.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc1100_xmc1200_xmc1300_xmc1400.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -158,7 +177,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4100x128.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -168,14 +188,16 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4104x128.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "64": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4104x64.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -185,7 +207,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4108x64.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -195,7 +218,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4200x256.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -205,7 +229,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4300x256.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4300_xmc4800.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -215,14 +240,16 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4400x256.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "512": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4400x512.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -232,7 +259,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4402x256.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -242,14 +270,16 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4500x1024.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "768": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4500x768.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -259,7 +289,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4502x768.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -269,7 +300,8 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4504x512.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -279,14 +311,16 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4700x1536.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "2048": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4700x2048.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4100_xmc4200_xmc4400_xmc4500_xmc4700.txt"
                     },
                     "udd_key": "Flash_KB"
                 },
@@ -296,21 +330,24 @@
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4800x1024.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4300_xmc4800.txt"
                     },
                     "1536": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4800x1536.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4300_xmc4800.txt"
                     },
                     "2048": {
                         "deps": "cat3_dependencies",
                         "files": [
                             "filelist/cat3.txt",
                             "filelist/xmc4800x2048.txt"
-                        ]
+                        ],
+                        "files_init": "filelist/init_xmc4300_xmc4800.txt"
                     },
                     "udd_key": "Flash_KB"
                 },

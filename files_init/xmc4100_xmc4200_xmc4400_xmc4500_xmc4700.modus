@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration app="BACKEND" formatVersion="13" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.0.0" toolsPackage="ModusToolbox 3.0.0" xmlns="http://cypress.com/xsd/cydesignfile_v4">
+    <Devices>
+        <Device mpn="XMC4100-F64x128">
+            <BlockConfig>
+                <Block location="scu[0].clock[0]">
+                    <Personality template="xmc4_clocks" version="1.0"/>
+                </Block>
+                <Block location="scu[0].clock[0].cpuclk[0]">
+                    <Personality template="xmc4_cpuclk" version="1.0">
+                        <Param id="divider" value="1"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].osc_fi[0]">
+                    <Personality template="xmc4_ofi" version="1.0">
+                        <Param id="calibration_mode" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY"/>
+                        <Param id="factoryAccuracy" value="15.0"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].osc_si[0]">
+                    <Personality template="xmc4_osi" version="1.0">
+                        <Param id="accuracy" value="10.0"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].periclk[0]">
+                    <Personality template="xmc4_periclk" version="1.0">
+                        <Param id="divider" value="1"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].rtcclk[0]">
+                    <Personality template="xmc4_rtcclk" version="1.0">
+                        <Param id="clock_source" value="XMC_SCU_HIB_RTCCLKSRC_OSI"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].stdbyclk[0]">
+                    <Personality template="xmc4_stdbyclk" version="1.0">
+                        <Param id="clock_source" value="XMC_SCU_HIB_STDBYCLKSRC_OSI"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].sysclk[0]">
+                    <Personality template="xmc4_sysclk" version="1.0">
+                        <Param id="clock_source" value="XMC_SCU_CLOCK_SYSCLKSRC_OFI"/>
+                        <Param id="divider" value="1"/>
+                    </Personality>
+                </Block>
+            </BlockConfig>
+            <Netlist/>
+        </Device>
+    </Devices>
+    <ConfiguratorData/>
+</Configuration>
